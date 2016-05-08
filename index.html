@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Giphy Cartoon Fun</title>
-	<link rel = "stylesheet" type = "text/css" href="style.css">
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Giphy Cartoon Fun</title>
+
+  <style type="text/css" href="assets/css/style.css" rel="stylesheet"></style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
 </head>
 <body>
 
-	<div id= "buttons">
-	<button data-cartoon="bugs bunny" data-state="still" class="cartoonImage">bugs bunny</button>
-      <button data-cartoon="stitch">stitch</button>
-        <button data-cartoon="garfield">garfield</button>
-        	<button data-cartoon="popeye">popeye</button>
-        	<button data-cartoon="mickey mouse">mickey mouse</button>
-	</div>
+  <div id="cartoonButtons">
 
+  </div>
 
-	<form id = "character-form">
-	<label for="character-input">Add a Cartoon Character</label>
-	<input type="text" id="gif-input">
-	<br>
-	<input id= "addCharacter" type= "submit" value= "Add your favorite cartoon character!">
-	</form>
+  <form id="cartoon-form">
+    <label for="cartoon-input">Add your favorite cartoon character.</label>
+    <input type="text" id="cartoon-input"><br>
+    
+    <input id="addCartoon" type="submit" value="Submit"> 
+  </input>
+  </form>
+  <div id="cartoons">
 
+  </div>
 
-	<div id= "playGif">
-	</div>
-
-
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="assets/javascript/logic.js"></script>
-
-
 </body>
 </html>
+
