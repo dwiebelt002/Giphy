@@ -1,0 +1,71 @@
+#cartoonHeader {
+	background-color: lightgreen;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+	
+}
+
+h1 {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+
+#cartoonButtons {
+	background-color: white;
+    border: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+
+#cartoon-form {
+	position: center;
+	background-color: white;
+	width: 40%;
+	margin-left: 400px;
+	text-align: center;
+	padding-bottom: 20px
+
+}
+
+#cartoons {
+	position: relative;
+	display: inline-block;
+	margin: 0 40px 0 0;
+	background-color: yellow;
+	padding: 10px;
+	width: 90%;
+	margin-left: 75px;
+	
+
+}
+
+img {
+	position: relative;
+	display: inline-block;
+	float: left;
+	max-width: 250px
+}
+
+p {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+
+
+#addCartoon {
+	
+}
+
+body {
+	background-image: url("http://cdn.playbuzz.com/cdn/0bc23585-f477-43d5-973a-4b6856014e33/9d538216-5bb7-45e5-8d98-5230706618f1_560_420.jpg");
+}

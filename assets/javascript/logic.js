@@ -1,6 +1,6 @@
 $(document).ready(function () {
     
-    var gifs = ['bugs bunny', 'stitch', 'mickey mouse', 'fred flintstone', "garfield", "popeye", 'road runner', 'donald duck', 'tweety bird'];
+    var gifs = ['bugs bunny', 'stitch', 'mickey mouse', 'fred flintstone', "garfield", "popeye", 'road runner', 'donald duck', 'tweety bird', 'pikachu', 'spongebob'];
 
     function renderButtons(){ 
 
@@ -70,6 +70,7 @@ $(document).ready(function () {
                 }
 
             });
+        $('#cartoons').empty();
     });
       $('#cartoons').on('click', '.cartoonGif', function(){
            
